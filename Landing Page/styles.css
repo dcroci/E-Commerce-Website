@@ -208,11 +208,14 @@ transform: scale(1.03);
 .book{
   width: 25%;
   padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .book_img{
   max-height: 380px;
   transition: all 300ms ease;
-  cursor: no-drop;
 }
 .book_img-wrapper{
   margin-bottom: 8px;
@@ -226,6 +229,7 @@ transform: scale(1.03);
 .book_title{
   font-size: 20px;
   margin-bottom: 8px;
+
 
 }
 .book_title:hover{
